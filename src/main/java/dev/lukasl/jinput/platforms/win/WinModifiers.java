@@ -21,7 +21,7 @@ final class WinModifiers {
 
   static int toInt(@NotNull Modifier modifier) {
     if (!WinModifiers.supported(modifier)) {
-      throw new IllegalArgumentException();
+      throw new IllegalArgumentException(String.format("Modifier %s is not supported on windows.", modifier));
     }
     return WinModifiers.modifiers.get(modifier);
   }
