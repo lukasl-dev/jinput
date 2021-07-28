@@ -19,6 +19,8 @@ dependencies {
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
 
     implementation 'org.jetbrains:annotations:21.0.1'
+
+    implementation 'net.java.dev.jna:jna:5.8.0'
 }
 
 test {
