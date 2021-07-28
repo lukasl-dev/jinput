@@ -12,3 +12,6 @@
 ### Gradle
 /.gradle
 !/gradle/wrapper/*.jar
+
+### Excluded files and directories
+/build
