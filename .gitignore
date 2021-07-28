@@ -11,4 +11,4 @@
 
 ### Gradle
 /.gradle
-!/wrapper/*.jar
+!/gradle/wrapper/*.jar
